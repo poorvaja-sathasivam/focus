@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Focus",
+    "description": "A chrome extension that helps you focus on tasks.",
+    "version": "1.0",
+    "author": "Poorvaja Satha Sivam",
+    "icons": {
+    "128": "128.png"
+    },
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Focus"
+    },
+    "permissions": [
+    "unlimitedStorage",
+    "notifications"
+    ]
+    }
