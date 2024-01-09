@@ -1,18 +1,28 @@
 {
     "manifest_version": 3,
-    "name": "Focus",
-    "description": "A chrome extension that helps you focus on tasks.",
+    "name": "Focus Timer",
     "version": "1.0",
-    "author": "Poorvaja Satha Sivam",
-    "icons": {
-    "128": "128.png"
+    "description": "A simple focus timer Chrome extension.",
+    "action": {
+
+      "default_popup": "index.html"
     },
-    "action":{
-        "default_popup": "index.html",
-        "default_title": "Focus"
+    "icons": {
+ 
+      "128": "128.png"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+  },
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'"
     },
     "permissions": [
-    "unlimitedStorage",
-    "notifications"
+      "storage"
     ]
-    }
+  
+   
+    
+  }
+  
