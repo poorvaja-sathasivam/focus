@@ -128,12 +128,15 @@ section{
 
 .controls button{
     border: none;
-    background-color: var(--color-font);
+    background-color: transparent;
     cursor: pointer;
+    color: var(--color-font);
   
 }
 
 .controls #reset{
     display: none;
-    background-color: var(--color-font);
+    background-color: transparent;
+    color: var(--color-font);
+    
 }

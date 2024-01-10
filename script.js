@@ -2,7 +2,7 @@
 let workTitle = document.getElementById('work');
 let breakTitle = document.getElementById('break');
 
-let workTime = 1;
+let workTime = 25;
 let breakTime = 5;
 
 let seconds = "00"
@@ -47,7 +47,6 @@ function start(){
                     //Start break
                     workMinutes = breakMinuttes;
                     breakCount++
-
                     workTitle.classList.remove('active');
                     breakTitle.classList.add('active');
                 }
